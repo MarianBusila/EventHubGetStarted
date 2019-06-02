@@ -1,0 +1,4 @@
+{
+  "EventHubConnectionString": "Event Hubs connection string",
+  "EventHubName": "Event Hub Name"
+}
