@@ -330,3 +330,5 @@ ASALocalRun/
 .mfractor/
 
 Sender/local\.settings\.json
+
+Receiver/local\.settings\.json

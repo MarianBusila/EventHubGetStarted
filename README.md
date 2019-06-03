@@ -18,3 +18,15 @@ az eventhubs eventhub create --name MyEventHub --resource-group EventHubsGetStar
 ```
 
 - Get the connection string from EventHubsGetStartedNamespace -> Shared access policies -> RootManageSharedAccessKey -> Connection string-primary key
+
+- Create a storage acount with a container for EventHub checkpointing
+```bash
+az storage account create --name ehgetstartedstorage --resource-group EventHubsGetStarted --location eastus  --sku Standard_LRS
+az storage container create -n eventhubcontainer --account-name ehgetstartedstorage --fail-on-exist
+```
+
+## Run the sender
+ - set the required settings in local.settings.json and run Sender project
+ 
+## Run the receiver
+- set the required  settings in local.settings.json and run Receiver project

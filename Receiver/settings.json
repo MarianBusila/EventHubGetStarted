@@ -1,0 +1,7 @@
+{
+  "EventHubConnectionString": "Event Hubs connection string",
+  "EventHubName": "Event Hub Name",
+  "StorageAccountName": "Storage Account Name",
+  "StorageAccountKey": "Storage Account Key",
+  "StorageContainerName": "Storage Container Name"
+}
